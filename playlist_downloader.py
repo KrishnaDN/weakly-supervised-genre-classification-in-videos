@@ -22,7 +22,7 @@ download_folder='download_folder/'+genre
 ###########
 
 if not os.path.exists(download_folder):
-    os.mkdir(download_folder)
+    os.makedirs(download_folder)
 
 def extract_links(playlist_url):
     open_link = urllib2.urlopen(playlist_url)
