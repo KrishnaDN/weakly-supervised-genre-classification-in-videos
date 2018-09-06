@@ -1,3 +1,12 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep  4 12:16:50 2018
+
+@author: krishna
+"""
+
+
 import cv2
 import numpy as np
 import glob
