@@ -6,6 +6,10 @@ This code takes input the genre name and the playlist url
 for example $ python playlist_downloader.py Fighting https://www.youtube.com/playlist?list=PLOJ49z5vFzH_vOtscrRR58zwR2s_G-Ro3
 
 2. frame_extraction.py extract frames and audio for all the videos which we have downloaded for each genre. 
-The code uses parallal processing to speed up the frame extracion process. This code assumes all the downloaded videos are present in 'download_folder' folder
+The code uses parallal processing to speed up the frame extracion process. 
+We extract 1 frames per second because of the 
+This code assumes all the downloaded videos are present in 'download_folder' folder
 We use ffmpeg to extract the image   and audio. We use multiprocessing toolkit for parallal processing
+After we run  frame_extraction.py we get frames for every video in every genre in the folder genre and it creats a file 'file_list.txt' which will have paths of all the images extracted.
+
 
